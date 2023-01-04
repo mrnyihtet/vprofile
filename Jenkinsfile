@@ -13,7 +13,6 @@ pipeline {
         NEXUSIP = '192.168.42.51'
         NEXUSPORT = '8081'
         NEXUS_GRP_REPO = 'vprofile-group'
-        NEXUS_LOGIN = 'nexus'
     }
     stages { 
         stage ('Build') { 
